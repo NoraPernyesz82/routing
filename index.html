@@ -5,23 +5,23 @@
     <title>Routingolás</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <script src="routing.js"></script>
 </head>
 <body ng-app="myApp">
-   <p><a href="#/!">Main</a></p>
-   <a href="#!London">London</a>
+   <form name="urlap">
+        <select name="valogat">
+            <option value="london">London</option>
+            <option value="parizs">Párizs</option>
+            <option value="roma">Róma</option> 
+        </select>
+   </form>
+  
+   <p style="display: none;" id="london"><a href="#!London">London</a></p>
+   <p style="display: none;" id="parizs"><a href="#!Parizs">Párizs</a></p>
+   <p style="display: none;" id="roma"><a href="#!Roma">Róma</a></p>
    <div ng-view></div>
-   <p>Ez itt a szöveg vége</p>
    <script>
-       let app = angular.module('myApp', ['ngRoute']);
-       app.config(function($routeProvider){
-           $routeProvider
-           .when('/', {
-               templateUrl : "main.html"
-           })
-           .when('/London',{
-               templateUrl : "London.html"
-           })
-       });
-    </script>
+       let x = document.forms['urlap']['valogat'].selectedValue;
+   </script>
 </body>
 </html>

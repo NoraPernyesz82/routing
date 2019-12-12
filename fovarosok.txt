@@ -1,0 +1,3 @@
+﻿London;Nagy-Britannia fővárosa;https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/London_collage.jpg/1200px-London_collage.jpg
+Párizs;Franciaország fővárosa;https://www.maiutazas.hu/uploads/mu_campaign/8/7/_/80730_51e17986d57f64ddb6bfbe1ceb03440ccc4e6b79_full.jpg
+Róma;Olaszország fővárosa;https://www.maiutazas.hu/uploads/mu_campaign/8/3/_/83085_bb17f81875af1c8e061d26be5a7c994c074b0093_full.jpg
